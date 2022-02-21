@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 5%;
+  background: palevioletred;
+  width: 60%;
+}
+
+.add-to-do {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 10px;
+}
+
+.add-to-do button {
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item input[type="checkbox"] {
+  width: 5%;
+  order: 1;
+}
+
+.list-item button {
+  width: 15%;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: green;
+  order: 4;
+}
+
+.done-btn {
+  background: yellow;
+  order: 5;
+  display: none;
+}
+
+.delete-btn {
+  background: red;
+  order: 6;
+}
+
+.task-edit {
+  width: 65%;
+  order: 3;
+  display: none;
+}
+
+.the-label {
+  width: 65%;
+  order: 2;
+}
+
+.list-item input {
+  width: 65%;
+  order: 2;
+}
+
+.todos {
+  height: 200px;
+  background: yellow;
+}
+
+.completed {
+  height: 200px;
+  background: orange;
+}
+
+.completed label {
+  text-decoration: line-through;
+  word-wrap: break-word;
+}
